@@ -1,0 +1,401 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+.dark-theme a {
+  color: #f0f0f0;
+}
+
+/*hero*/
+.hero {
+  height: 10vh;
+  width: 100%;
+  margin-top: 20px;
+}
+.hero .hero-inner {
+  display: flex;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -120px;
+}
+.hero .hero-inner #clos {
+  color: purple;
+}
+.hero .hero-inner li {
+  list-style: none;
+  padding: 40px;
+  margin-left: -30px;
+  font-family: bold;
+}
+.hero .hero-inner a {
+  text-decoration: none;
+  font-family: regular;
+  color: black;
+  font-family: bold;
+  font-size: 20px;
+}
+.hero .hero-inner #gry {
+  background-color: black;
+  border-bottom: none;
+  font-family: bold;
+  width: 200vh;
+  height: 195vh;
+}
+
+/*end of hero*/
+/*banner*/
+.banner {
+  margin-top: 20px;
+}
+.banner h2 {
+  font-size: 30px;
+  font-family: bold;
+  margin-top: 110px;
+}
+.banner p {
+  font-size: 20px;
+  font-family: regular;
+}
+.banner #one {
+  background-color: purple;
+  color: white;
+  font-family: bold;
+  border: none;
+  font-size: 15px;
+  font-family: regular;
+  padding: 10px;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner #two {
+  font-size: 15px;
+  font-family: bold;
+  padding: 10px;
+  width: 140px;
+  border-color: purple;
+  margin-left: 20px;
+}
+.banner .icon {
+  margin-top: 10px;
+}
+.banner .icon a {
+  font-size: 15px;
+  font-family: regular;
+  margin-top: 400px;
+  color: purple;
+  text-decoration: none;
+}
+.banner .icon .icon2 {
+  margin-top: 20px;
+}
+.banner .icon .icon2 a {
+  color: black;
+  margin-top: 40px;
+}
+
+/*end of banner*/
+/*about*/
+.about {
+  margin-top: 70px;
+  margin-left: 110px;
+  margin-bottom: 280px;
+}
+.about h2 {
+  font-size: 25px;
+  font-family: bold;
+  margin-bottom: 16px;
+}
+.about p {
+  font-size: 17px;
+  font-family: regular;
+  font-weight: 800px;
+  width: 86%;
+}
+.about #ony {
+  margin-top: -100px;
+}
+.about #twy {
+  margin-top: 125px;
+}
+.about button {
+  background-color: purple;
+  color: white;
+  border: none;
+  font-family: bold;
+  font-size: 15px;
+  padding: 8px;
+  width: 140px;
+}
+
+/*end of About*/
+/*services*/
+#title {
+  font-size: 30px;
+  font-family: bold;
+  color: black;
+  margin-left: 150px;
+  margin-top: -180px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  position: relative;
+  width: 290px;
+  height: 400px;
+  margin: 0px 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay2 h3 {
+  text-align: center;
+  font-family: bold;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+  bottom: 0;
+  margin-top: 130%;
+}
+
+.overlay2 p {
+  text-align: center;
+  font-size: 10px;
+  font-family: regular;
+  color: white;
+  bottom: 0;
+}
+
+.overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.358);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: purple;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  color: white;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 20px;
+}
+
+.overlay h2 {
+  font-family: bold;
+  text-align: left;
+  font-size: 18px;
+  font-family: bold;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.overlay p {
+  margin: 20px;
+}
+
+.overlay h4 {
+  font-size: 20px;
+  font-family: bold;
+  margin-left: 10px;
+}
+
+.card:hover .overlay {
+  height: 100%;
+}
+
+.overlay h5 {
+  font-family: light;
+  font-size: 15px;
+}
+
+span {
+  margin-left: 120px;
+}
+
+#top {
+  display: flex;
+}
+
+#heart {
+  width: 50px;
+  height: 50px;
+  top: 0;
+  margin-left: 50px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*end of services*/
+/*comments*/
+.comments {
+  padding-top: 90px;
+  margin-left: 150px;
+}
+.comments h2 {
+  font-size: 21px;
+  font-family: bold;
+  margin-top: 10px;
+  margin-left: -50px;
+}
+.comments #ryt {
+  margin-left: 60px;
+}
+.comments h3 {
+  font-size: 25px;
+  font-family: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+.comments h4 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-family: bold;
+  margin-left: 55px;
+}
+.comments p {
+  font-size: 18px;
+  font-family: bold;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 55px;
+}
+
+#comments {
+  margin-top: -25px;
+}
+#comments h5 {
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -50px;
+}
+#comments h6 {
+  font-size: 24px;
+  font-family: bold;
+  margin-bottom: 20px;
+  margin-left: -50px;
+}
+#comments #oney {
+  margin-left: -50px;
+}
+#comments #twy {
+  margin-left: -50px;
+}
+
+/*end of comments*/
+/*showcase*/
+.showcase {
+  text-align: center;
+  padding-top: 40px;
+}
+.showcase h3 #clo {
+  font-size: 25px;
+  font-family: bold;
+  margin-bottom: 30px;
+}
+.showcase h3 #clo .insta {
+  font-family: Regular1;
+  font-weight: 400px;
+}
+.showcase #img {
+  margin-left: 108px;
+}
+.showcase #img1 {
+  margin-left: 74px;
+}
+.showcase #img2 {
+  margin-left: 40px;
+}
+.showcase #img3 {
+  margin-left: -4px;
+}
+.showcase #img4 {
+  margin-left: -71px;
+}
+.showcase #img5 {
+  margin-left: -140px;
+}
+.showcase #pho {
+  font-size: 25px;
+  font-family: bold;
+  margin-top: 70px;
+  margin-bottom: -70px;
+}
+.showcase #teo {
+  background-color: purple;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  width: 140px;
+  font-family: bold;
+  margin-top: 80px;
+}
+
+/*end of showcase*/
+/*footer*/
+footer {
+  height: 35vh;
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  margin-top: 70px;
+  font-family: regular;
+}
+footer #iny {
+  padding: 8px;
+}
+footer #flo {
+  width: 50%;
+}
+footer #fli {
+  background-color: white;
+  -webkit-clip-path: fill-box;
+          clip-path: fill-box;
+  margin-bottom: 10px;
+}
+footer .col {
+  padding-top: 20px;
+}
+footer h3 {
+  font-size: 20px;
+  font-family: regular;
+  text-decoration: underline;
+}
+
+/*end of footer*//*# sourceMappingURL=styles.css.map */
